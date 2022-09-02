@@ -16,7 +16,6 @@
   "settings": {
     "git.autofetchPeriod": 60,
     "task.allowAutomaticTasks": "on",
-    "typescript.tsserver.useSyntaxServer": "always",
     "typescript.tsserver.experimental.enableProjectDiagnostics": true,
     "typescript.tsserver.maxTsServerMemory": 5120,
     "typescript.tsserver.log": "verbose",

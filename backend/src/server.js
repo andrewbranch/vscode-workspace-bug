@@ -1,7 +1,4 @@
-
-
-
-
+import {} from "@shared/api/auth";
 
 const server = () => {
 

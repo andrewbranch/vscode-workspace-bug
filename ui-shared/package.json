@@ -6,6 +6,14 @@
   "files": [
     "components"
   ],
+  "exports": {
+    "./components/*": "./src/components/*"
+  },
+  "typesVersions": {
+    "*": {
+      "components/*": ["./src/components/*"]
+    }
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

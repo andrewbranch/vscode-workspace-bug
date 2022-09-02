@@ -3,13 +3,7 @@
     "."
   ],
   "compilerOptions": {
-    "baseUrl": ".",
-    "moduleResolution": "node16",
-    "module": "es6",
-    "paths": {
-      "@shared/ui/components/*": [
-        "./components/*"
-      ],
-    }
+    "moduleResolution": "node",
+    "module": "es6"
   }
 }

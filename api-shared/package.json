@@ -9,12 +9,33 @@
   ],
   "exports": {
     "./*": "./src/*",
+    "./auth": "./src/auth/index.js",
     "./auth/*": "./src/auth/*"
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./src/*"
+      ],
+      "auth": [
+        "./src/auth/index.js"
+      ],
+      "auth/*": [
+        "./src/auth/*"
+      ]
+    }
+  },
+  "imports": {
+    "#auth": "./src/auth/index.js",
+    "#auth/*": "./src/auth/*"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@shared/ui": "file:../ui-shared"
+  }
 }
